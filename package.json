@@ -1,0 +1,38 @@
+{
+  "name": "@ai-native-solutions/fallasset-mcp",
+  "version": "1.0.0",
+  "description": "FallAsset MCP server — Model Context Protocol wrapper around the FallAsset SDK. Rate, tag, label, collect, sort, filter, and route natural-language intents against a headless asset library.",
+  "type": "module",
+  "main": "src/server.js",
+  "bin": {
+    "fallasset-mcp": "bin/fallasset-mcp.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "fallasset",
+    "asset-browser",
+    "claude",
+    "anthropic"
+  ],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "homepage": "https://github.com/sjgant80-hub/fallasset-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallasset-mcp.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@ai-native-solutions/fallasset-sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
